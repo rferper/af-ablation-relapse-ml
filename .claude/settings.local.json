@@ -12,7 +12,13 @@
       "Bash(ls -d TabPFN tabpfn-extensions data-imbalance-main)",
       "Bash(grep -r \"clean_data\" final.ipynb robustness.ipynb)",
       "Bash(rm -rf TabPFN/ tabpfn-extensions/ data-imbalance-main/)",
-      "Bash(du -sh . --exclude=.venv)"
+      "Bash(du -sh . --exclude=.venv)",
+      "Bash(python *)",
+      "Bash(Remove-Item *)",
+      "Bash(.venv/Scripts/python.exe -c ' *)",
+      "Bash(.venv/Scripts/python.exe -m pip install tabpfn tabpfn-extensions)",
+      "Bash(.venv/Scripts/python.exe -m pip install --upgrade imbalanced-learn)",
+      "Bash(grep -v \"^$\\\\|UserWarning\\\\|FutureWarning\\\\|IProgress\\\\|tqdm\\\\|autonotebook\")"
     ]
   }
 }

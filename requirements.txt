@@ -1,10 +1,12 @@
 pandas>=1.5
 numpy>=1.23
-scikit-learn>=1.1
-imbalanced-learn>=0.10
-xgboost>=1.7
-shap>=0.42
+scikit-learn>=1.8
+imbalanced-learn>=0.14
+xgboost>=2.0
+shap>=0.46
 matplotlib>=3.6
 seaborn>=0.12
 scipy>=1.10
+tabpfn>=8.0
+tabpfn-extensions>=0.4
 jupyter>=1.0
