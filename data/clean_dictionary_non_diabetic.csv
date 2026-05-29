@@ -1,0 +1,123 @@
+name_column_excel,priority,category,variable_name,variable_type,description
+K,low,NA,sex,binary,"Sex of the patient (1=Man, 0=Woman)"
+Wiek,low,NA,age,numerical,Age of the patient
+Nawrót wczesny 0-1,tested hipothesis,NA,early_relapse,binary,"Early relapse (0=No, 1=Yes). Up to 3 months"
+Nawrót późny 0-1,tested hipothesis,NA,late_relapse,binary,"Late relapse (0=No, 1=Yes). Between 3 and 12 months"
+KRIO,low,NA,treatment,binary,"Type of treatment that was applied (1=KRIO, 0=CARTO)"
+RDW przed ablacją,low,NA,rdw_ba,numerical,Red blood cell distribution width (RDW) in % before the treatment
+RDW po ablacji,high,NA,rdw_aa,numerical,Red blood cell distribution width (RDW) in % after the treatment
+Neutrofile przed abl,low,NA,neutrophils_ba,numerical,Neutrophils per microliter of blood before the treatment (in 10e3/ul)
+Neutrofile po abl,high,NA,neutrophils_aa,numerical,Neutrophils per microliter of blood after the treatment (in 10e3/ul)
+Limfocyty przed abl,low,NA,lymphocytes_ba,numerical,Lymphocytes per microliter of blood before the treatment (in 10e3/ul)
+Limfocyty po abl,high,NA,lymphocytes_aa,numerical,Lymphocytes per microliter of blood after the treatment (in 10e3/ul)
+Monocyte przed abl,low,NA,monocyte_ba,numerical,Monocytes per microliter of blood before the treatment (in  10e3/ul)
+Monocyte po abl,high,NA,monocyte_aa,numerical,Monocytes per microliter of blood after the treatment (in  10e3/ul)
+PLT przed abl,low,NA,plt_ba,numerical,Platelet count before the treatment (in 103/ml)
+PLT po abl,high,NA,plt_aa,numerical,Platelet count after the treatment (in  103/ml)
+NLR przed abl,low,NA,nlr_ba,numerical,Neutrophil-to-lymphocyte ratio before the treatment
+NLR po abl,high,NA,nlr_aa,numerical,Neutrophil-to-lymphocyte ratio after the treatment
+PLR przed abl,low,NA,plr_ba,numerical,Platelet-to-lymphocyte ratio before the treatment
+PLR po abl,high,NA,plr_aa,numerical,Platelet-to-lymphocyte ratio after the treatment
+MLR przed abl,low,NA,mlr_ba,numerical,Monocyte-to-lymphocyte ratio before the treatment
+MLR po abl,high,NA,mlr_aa,numerical,Monocyte-to-lymphocyte ratio after the treatment
+SII (NeuxPLT/Lymph) przed abl,low,NA,sii_ba,numerical,Systemic immune-inflammation index before the treatment
+SII po ablacji,high,NA,sii_aa,numerical,Systemic immune-inflammation index after the treatment
+SIRI (NEUxMONO/Lymph) przed ablacją,low,NA,siri_ba,numerical,Systemic inflammatory response index before the treatment
+SIRI po ablacji,high,NA,siri_aa,numerical,Systemic inflammatory response index after the treatment
+Neu/HDL (NHR) przed ablacją,low,NA,nhr_ba,numerical,Neutrophil-to-high-density lipoprotein-cholesterol ratio before the treatment
+NHR po  ablacji,high,NA,nhr_aa,numerical,Neutrophil-to-high-density lipoprotein-cholesterol ratio after the treatment
+CRP/hdl (CHR) przed ablacji,low,NA,crp_hdl_ba,numerical,High-Sensitivity C-Reactive Protein to HDL-C Ratio before the treatment
+CRP/HDL (CHR) po ablacji,high,NA,crp_hdl_aa,numerical,High-Sensitivity C-Reactive Protein to HDL-C Ratio after the treatment
+Mono/HDL (MHR) przed ablacją,low,NA,mhr_ba,numerical,Monocyte-to-High Density Lipoprotein Cholesterol Ratio before the treatment
+MHR po ablacji,high,NA,mhr_aa,numerical,Monocyte-to-High Density Lipoprotein Cholesterol Ratio after the treatment
+CRP przed ablacją,high,NA,crp_ba,numerical,C-reactive protein before treatment
+CRP po  ablacji,high,NA,crp_aa,numerical,C-reactive protein after treatment
+HDL,low,NA,hdl,numerical,High-density lipoprotein cholesterol
+Masa ciała,low,NA,body_weight,numerical,Body weight in kg
+BMI,high,NA,bmi,numerical,Body Mass Index
+WC,high,NA,wc,numerical,weist in cm
+Adiponektyna,high,NA,adiponectin,numerical,Adiponectin
+Leptyna,high,NA,leptin,numerical,Leptin
+LAR,high,NA,lar,numerical,Leptin to Adiponectin Ratio
+t-PA,low,NA,t_pa_ba,numerical,Tissue plasminogen activator (tPA) before the treatment
+t-PA,high,NA,t_pa_aa,numerical,Tissue plasminogen activator (tPA) after the treatment
+PAI-1,low,NA,pai1_ba,numerical,Plasminogen activator inhibitor-1 (PAI-1) before the treatment
+PAI-1,high,NA,pai1_aa,numerical,Plasminogen activator inhibitor-1 (PAI-1) after the treatment
+sCD40L,low,NA,scd40l_ba,numerical,sCD40L before the treatment
+sCD40L,high,NA,scd40l_aa,numerical,sCD40L after the treatment
+B-TG/CXCL7,low,NA,btgcxcl7_ba,numerical,B-TG/CXCL7 before the treatment
+B-TG/CXCL7,high,NA,btgcxcl7_aa,numerical,B-TG/CXCL7 after the treatment
+Fibrynogn,low,NA,fibrinogen_ba,numerical,Fibrinogen before the treatment
+Fibrynogn,high,NA,fibrinogen_aa,numerical,Fibrinogen after the treatment
+D-dimery,low,NA,d_dimery_ba,numerical,D-dimery before the treatment
+D-dimery,high,NA,d_dimery_aa,numerical,D-dimery after the treatment
+sVCAM-1,low,NA,svcam1_ba,numerical,Svcam-1 before the treatment
+sVCAM-1,high,NA,svcam1_aa,numerical,Scvam-1 after the treatment
+sICAM-1,low,NA,slcam1_ba,numerical,Slcam-1 before the treatment
+sICAM-1,high,NA,slcam1_aa,numerical,Slcam-1 after the treatment
+hs IL-6,high,NA,hsil6_ba,numerical,hs IL-6 before the treatment
+hs IL-6,high,NA,hsil6_aa,numerical,hs IL-6 after the treatment
+Pentraksyna,high,NA,pentraxin_ba,numerical,Pentraxin before the treatment
+Pentraksyna,high,NA,pentraxin_aa,numerical,Pentraxin after the treatment
+WBC,low,NA,wbc_ba,numerical,White blood count before the treatment
+WBC,high,NA,wbc_aa,numerical,White blood count after the treatment
+vWF,low,NA,vwf_ba,numerical,von Willebrand factor (vWF) before the treatment
+vWF,high,NA,vwf_aa,numerical,von Willebrand factor (vWF) after the treatment
+TM,low,NA,tm_ba,numerical,TM before the treatment
+TM,high,NA,tm_aa,numerical,TM after the treatment
+Troponina,low,NA,troponin_ba,numerical,Troponin before the treatment
+Troponina,high,NA,troponin_aa,numerical,Troponin after the treatment
+CPK,low,NA,cpk_ba,numerical,Creatine phosphokinase (CPK) before the treatment
+CPK,high,NA,cpk_aa,numerical,Creatine phosphokinase (CPK) after the treatment
+CK-MB,low,NA,ck_mb_ba,numerical,Creatine kinase-MB (CK-MB) before the treatment
+CK-MB,high,NA,ck_mb_aa,numerical,Creatine kinase-MB (CK-MB) after the treatment
+ST2,high,NA,st2_ba,numerical,Suppression of tumorigenicity 2 (ST2) before the treatment
+ST2,high,NA,st2_aa,numerical,Suppression of tumorigenicity 2 (ST2) after the treatment
+LA objętość,high,NA,lavolume_ba,numerical,Left atrium (LA) volume in ml
+LAVI,high,NA,lavi,numerical,Left atrial volume index in ml/m2
+EF,high,NA,ef,numerical,Ejection fraction (EF) in %
+RBC,low,NA,rbc_ba,numerical,Red blood cell (RBC) count before the treatment
+Hb,low,NA,hb_ba,numerical,Hemoglobin (Hb) before the treatment
+HCT,low,NA,hct_ba,numerical,Hematocrit test (Hct) before the treatment
+MCV,low,NA,mcv_ba,numerical,Mean corpuscular volume (MCV) before the treatment
+MCH,low,NA,mch_ba,numerical,Mean corpuscular hemoglobin (MCH) before the treatment
+MCHC,low,NA,mchc_ba,numerical,Mean corpuscular haemoglobin concentration (MCHC) before the treatment
+Na,low,NA,na_ba,numerical,Sodium levels before the treatment
+K,low,NA,k_ba,numerical,Potassium levels before the treatment
+glukoza,low,NA,glucose_ba,numerical,Glucose before the treatment
+cholesterol,low,NA,cholesterol_ba,numerical,Cholesterol before the treatment
+HDL,low,NA,hdl_ba,numerical,High-density lipoprotein cholesterol before the treatment (mg/dl)
+LDL,low,NA,ldl_ba,numerical,Low-density lipoproteins before the treatment (mg/dl)
+TG,low,NA,tg_ba,numerical,Triglycerides before the treatment
+TSH,low,NA,tsh_ba,numerical,Thyroid stimulating hormone before the treatment
+Mocznik,low,NA,urea_ba,numerical,Urea levels before the treatment
+Kreatynina,low,NA,creatinine_ba,numerical,Creatinine levels before the treatment
+GFR,low,NA,gfr_ba,numerical,Glomerular filtration rate (GFR) before the treatment
+ALAT,low,NA,alat_ba,numerical,Alanine aminotransferase (ALAT) before the treatment
+ASPAT,low,NA,aspat_ba,numerical,Aspartate transaminase (AST) before the treatment
+RR Syst,low,NA,rrsyst_ba,numerical,Inter-systolic respiratory rate (RR) before the treatment
+RR Syst,low,NA,rrsyst_aa,numerical,Inter-systolic respiratory rate (RR) after the treatment
+RR Diast,low,NA,rrdiast_ba,numerical,Inter-diastolic respiratory rate (RR) before the treatment
+RR Diast,low,NA,rrdiast_aa,numerical,Inter-diastolic respiratory rate (RR) after the treatment
+Categorical AF,high,NA,af_type,binary,"Type of atrial fibrillation (AF) (survived,persistent=0 or paraxysmal=1)"
+EHR scale,low,NA,ehr,binary,"EHR scale (I or II=0, III or IV=1)"
+CHOROBA NIEDOKRWIENNA SERCA,low,NA,ischemic,binary,"Presence of ischemic disease (0=No, 1=Yes)"
+NADCIŚNIENIE TĘTNICZE,low,NA,hypertension,binary,"Presence of hypertension (0=No, 1=Yes)"
+CHOROBY TARCZYCY,high,NA,thyroid,binary,"Presence of thyroid diseases (0=No, 1=Yes)"
+DYSLIPIDEMIA,low,NA,dyslipidemia,binary,"Presence of dyslipidemia disease (0=No, 1=Yes)"
+NIEWYDOLNOŚĆ SERCA,high,NA,heart_failure,binary,"Presence of heart failure (0=No, 1=Yes)"
+LEKI ANTYARYTMICZNE,low,NA,antiarrythmic_drugs,binary,"Antiarrythmic type of drugs used (if used). (1=yes, 0=No)"
+LBA,low,NA,lba,binary,Presence of low backache medical disorder
+STATYNA,low,NA,statina,binary,"Use of statin (0=No, 1=Yes)"
+ACEI,low,NA,acei,binary,"Use of statin Angiotensin-converting enzyme inhibitors (ACEIs) (0=No, 1=Yes)"
+SARTANY,low,NA,sartan,binary,"Use of angiotension II receptor blockers (SARTANs) (0=No, 1=Yes)"
+ACEi i Sartan vs 0,low,NA,acei_sartan,binary,"Use of acei or sartan (0=No, 1=Yes)"
+Ca bloker,low,NA,ca_bloker,binary,"Use of CA blockers (0=No, 1=Yes)"
+DIURETYKI,low,NA,diuretics,binary,"Use of diuretics  (0=No, 1=Yes)"
+PAPIEROSY,high,NA,smoker,binary,"Patient smoke cigarettes (0=No, 1=Yes)"
+skala CHA2DS2-VASC,low,NA,cha2ds2_vasc_scale,binary,"CHA2DS2-VASC scale ( above or equal to 2=1, below 2 =0)"
+skala HAS-BLED,low,NA,has_bled_scale,binary,"HAS-BLED scale (above or equal to 3=1, below 3=0)"
+Czas zabiegu,high,NA,treatment_time,numerical,Duration of the treatment
+Czas skopii RTG,high,NA,xray_copy_time,numerical,Duration of the X-RAY copy
+Czas krioaplikacji (min),high,NA,cryoapplication_time,numerical,Duration of the cryoapplication
+Liczba krioaplikacji,high,NA,number_applications,numerical,Number of applications

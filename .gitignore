@@ -1,0 +1,45 @@
+# Private clinical data — not for distribution
+data/clean_data_*.csv
+data/creditcard.csv
+
+# Large external repository clones — install via pip instead
+TabPFN/
+tabpfn-extensions/
+data-imbalance-main/
+
+# Exploratory / draft notebooks
+classification.ipynb
+classification_multivariate.ipynb
+classification_univariate.ipynb
+robustness.ipynb
+unbalanced_classification.ipynb
+unbalanced_classification2.ipynb
+class_univariate.ipynb
+class_univariate_nondiabetic.ipynb
+trial1.ipynb
+trial2.ipynb
+prueba_borrar.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

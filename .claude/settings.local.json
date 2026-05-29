@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Raquel\\\\PycharmProjects\\\\ablation_class\" -Recurse -Force)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Format-Table -AutoSize)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\Raquel\\\\PycharmProjects\\\\ablation_class\\\\tabpfn-extensions\" -Recurse -File | Where-Object {$_.FullName -notmatch \"\\\\.git\"} | Select-Object FullName | Sort-Object)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\Raquel\\\\PycharmProjects\\\\ablation_class\\\\TabPFN\" -Recurse -File | Where-Object {$_.FullName -notmatch \"\\\\.git\"} | Select-Object FullName | Sort-Object | Select-Object -First 30)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\Raquel\\\\PycharmProjects\\\\ablation_class\" -File -Name | Where-Object {$_.EndsWith\\('.py'\\)} | Sort-Object)",
+      "Bash(\"C:\\\\Users\\\\Raquel\\\\PycharmProjects\\\\ablation_class\\\\.venv\\\\Scripts\\\\python.exe\" generate_synthetic_data.py)",
+      "Bash(ls -d TabPFN tabpfn-extensions data-imbalance-main)",
+      "Bash(grep -r \"clean_data\" final.ipynb robustness.ipynb)",
+      "Bash(rm -rf TabPFN/ tabpfn-extensions/ data-imbalance-main/)",
+      "Bash(du -sh . --exclude=.venv)"
+    ]
+  }
+}
