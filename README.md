@@ -97,3 +97,20 @@ Tested with Python 3.10–3.12.
 | tabpfn ≥ 8.0 | TabPFN in-context learning classifier |
 | tabpfn-extensions ≥ 0.4 | AutoTabPFN and TabPFN-based feature selection |
 | pandas, numpy, matplotlib, seaborn | Data handling and visualisation |
+
+## Citation
+
+If you find this code useful or interesting, please cite the accompanying paper:
+
+```bibtex
+@article{budzianowski2026ml,
+  author    = {Budzianowski, Jan and Ostrowski, Marcin and Fernandez-Peralta, Raquel and Kaczmarek-Majer, Katarzyna and Rze{\'{z}}niczak, Janusz and Kasprzak, Dominika and Hiczkiewicz, Jaros{\l}aw and Burchardt, Pawel},
+  title     = {Machine learning models of inflammatory markers used in the prediction of early and late atrial fibrillation recurrence in overweight and obese patients after catheter ablation},
+  journal   = {Cardiology Journal},
+  year      = {2026},
+  volume    = {33},
+  pages     = {e00226057},
+  doi       = {10.5603/cj.110248},
+  url       = {https://journals.viamedica.pl/cardiology_journal/article/view/110248}
+}
+```

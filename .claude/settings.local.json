@@ -18,7 +18,11 @@
       "Bash(.venv/Scripts/python.exe -c ' *)",
       "Bash(.venv/Scripts/python.exe -m pip install tabpfn tabpfn-extensions)",
       "Bash(.venv/Scripts/python.exe -m pip install --upgrade imbalanced-learn)",
-      "Bash(grep -v \"^$\\\\|UserWarning\\\\|FutureWarning\\\\|IProgress\\\\|tqdm\\\\|autonotebook\")"
+      "Bash(grep -v \"^$\\\\|UserWarning\\\\|FutureWarning\\\\|IProgress\\\\|tqdm\\\\|autonotebook\")",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Raquel\\\\PycharmProjects\" -Directory)",
+      "Bash(Select-Object -ExpandProperty Name)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Raquel\\\\PycharmProjects\\\\af-ablation-relapse-ml\" -File)",
+      "Bash(Select-Object -First 20)"
     ]
   }
 }
